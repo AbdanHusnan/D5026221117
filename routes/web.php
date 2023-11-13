@@ -17,15 +17,32 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/halo1', function () {
-    return view('halo1');
-});
-
-Route::get('/halo2', function () {
-    return view('halo2');
-});
-
-
 Route::get('/blog', function () {
     return view('blog');
 });
+
+Route::get('ets', function () {
+    return view('ets');
+});
+
+Route::get('soal1', function () {
+    return view('soal1');
+});
+
+Route::get('validasi1', function () {
+    return view('validasi1');
+});
+
+
+
+Route::get('perkalian', 'App\Http\Controllers\DosenController@index');
+Route::get('show', 'App\Http\Controllers\DosenController@showBlog');
+
+
+Route::get('pegawai/{nama}', 'App\Http\Controllers\DosenController@shownama');
+Route::get('/formulir', 'App\Http\Controllers\DosenController@formulir');
+Route::post('/formulir/proses', 'App\Http\Controllers\DosenController@proses');
+
+Route::get('/blog', 'BlogController@home');
+Route::get('/blog/tentang', 'BlogController@tentang');
+Route::get('/blog/kontak', 'BlogController@kontak');

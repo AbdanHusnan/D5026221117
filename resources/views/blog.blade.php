@@ -6,7 +6,6 @@
 <body>
 
     <h3>www.malasngoding</h3>
-    
-    
+    <a href="/pegawai/{{ date("D M Y") }}">Klik Disini</a>
 </body>
 </html>

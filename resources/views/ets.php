@@ -1,0 +1,451 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>SMPN 12 Surabaya</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;700;800;900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+  <!-- Vendor CSS Files -->
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Template Main CSS File -->
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center">
+    <div class="container d-flex align-items-center">
+      <div class="row">
+        <div class="col-sm-2">
+          <img src="216-SMPN_12_SURABAYA.png" style="width: 45px;">
+        </div>
+        <div class="col-sm-2">
+          <h1 class="logo me-auto"><a href="index.html">SMPN 12 SURABAYA</a></h1>
+        </div>
+      </div>
+
+      <nav id="navbar" class="navbar">
+            <ul>
+              <li><a href="index.html">HOME</a></li>
+
+          <li class="dropdown"><a href="#"><span>ADIWIYATA</span></a>
+            <ul>
+              <li><a href="about.html">LINGKUNGAN HIDUP</a></li>
+            </ul>
+          </li>
+          <li><a href="services.html">SAS DAN PAS</a></li>
+          <li class="dropdown"><a href="galeri.html">DIREKTORI</a>
+            <ul>
+              <li><a href="about.html">DIREKTORI PTK</a></li>
+              <li><a href="team.html">DIREKTORI SISWA</a></li>
+              <li><a href="testimonials.html">DIREKTORI ALUMNI</a></li>
+              <li class="dropdown"><a href="testimonials.html">PRESTASI</a>
+                <ul>
+                  <li><a href="about.html">PRESTASI SEKOLAH </a></li>
+                  <li><a href="team.html">PRESTASI PTK</a></li>
+                  <li><a href="testimonials.html">PRESTASI SISWA</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="pricing.html">DOWNLOAD</a>
+            <ul>
+              <li><a href="#">SMPN 12</a></li>
+            </ul>
+          </li>
+          <li><a href="blog.html">KALENDAR</a></li>
+
+          <li class="dropdown"><a href="contact.html">GALLERY</a>
+            <ul>
+              <li><a href="#">GALLER PHOTO</a></li>
+              <li><a href="#">GALLERY VIDEO</a></li>
+            </ul>
+          </li>
+          <li><a href="index.html">HUBUNGI KAMI</a></li>
+
+        </ul>
+
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Berita utama ======= -->
+  <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active " data-bs-interval="10000">
+        <img src="croppedbasket.jpg" class="d-block w-100">
+        <div class="carousel-caption d-none d-md-block">
+            <h5>Basket Rholas</h5>
+            <p>Basket Rholas Berhasil Memasuki Babak 8 Besar Pada Event DBL</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="croppeddiscussion.jpg" class="d-block w-100">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Konseling Sebaya</h5>
+          <p>Kegiatan Konseling Sebaya Merupakan Program BK SMPN 12 SBY</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="pexels-elevate-1267317.jpg" class="d-block w-100">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>HUNTER 2K16</h5>
+          <p>HUNTER Merupakan Acara Tahunan Yang Diadakan SMPN 12 SBY Untuk Merayakan Ulang Tahun Sekolah</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <main id="main">
+
+    <!-- ======= Sambutan======= -->
+    <section id="sambutan" class="sambutan">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-6">
+            <img src="pexels-max-fischer-5212317.jpg" class="kepsek">
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0">
+            <h1>
+              SAMBUTAN KEPALA SEKOLAH
+            </h1>
+            <h5>TJIPTO WARDOJO, S.Pd</h5>
+              <p>
+                Assalamualaikum Wr. Wb.
+                Salam sejahtera untuk kita semua.
+                Puji syukur ke hadirat Allah SWT, Tuhan Yang Maha Esa atas berkah, limpahan rahmat, taufik, dan hidayah-Nya kepada kita semua. Terkhusus, para peserta didik baru yang telah berhasil bersaing dan akhirnya diterima di SMPN 12 Surabaya pada tahun pelajaran 2023/2024 ini.
+                Keluarga besar SMPN 12 Surabaya mengucapkan selamat datang dan selamat bergabung menjadi bagian dari keluarga ini.
+                Mengawali tahun pelajaran 2023/2024 ini, seluruh peserta didik baru wajib mengikuti kegiatan MPLS atau Masa Pengenalan Lingkungan Sekolah. Kami berharap para siswa dan siswi baru bisa mengikuti MPLS ini dengan semangat dan sungguh-sungguh.
+                Selama kegiatan ini berlangsung, kami berharap adik-adik sekalian dapat memperoleh pengalaman baru yang menyenangkan, mengenal teman-teman baru, para guru dan karyawan, seluruh komponen sekolah beserta norma, budaya, dan tata tertib yang berlaku di dalamnya. Dan yang paling utama adalah mengenal lingkungan sekolah kita, sebagai sekolah penggerak dan berwawasan sekolah ramah anak.
+                Semoga kegiatan ini dapat menjadikan kalian siswa dan siswi baru sebagai insan yang beriman, disiplin, berakhlak mulia, kreatif dan berprestasi.
+                Selamat mengikuti MPLS, sukses untuk adik-adik semua! Semoga Allah SWT, Tuhan Yang Maha Kuasa melindungi dan mengiringi langkah kita semua. Aamin Yaa Rabbal Alamin.
+                Wassalammualaikum Wr. Wb.
+              </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Esambutan -->
+
+    <!-- ======= Berita ======= -->
+    <section id="berita" class="berita">
+      <div class="container">
+        <h2>Berita & Pengumuman</h2>
+      </div>
+      <div class="container">
+
+        <div class="row">
+          <div class="col-md-6">
+            <div class="icon-box">
+              <div class="row">
+                <div class="col-sm-2">
+                  <img src="veteran.jpeg">
+                </div>
+                <div class="col-sm-10">
+                  <h4><a href="#">SOSIALISASI PEJUANG VETERAN</a></h4>
+                  <p>Surabaya, 1 Maret 2017 . Dalam Program Yang di berlakukan Oleh Ibu walikota Surabaya,yang memberikan Kesempatan</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 mt-4 mt-md-0">
+            <div class="icon-box">
+              <div class="row">
+                <div class="col-sm-2">
+                  <img src="polisi.jpg">
+                </div>
+                <div class="col-sm-10">
+                  <h4><a href="#">KEGIATAN KEDISIPLINAN DAN KETERTIBAN SISWA</a></h4>
+                  <p>Surabaya, 26 Februari 2017. Dalam Rangka menertibkan serta mendisiplinkan siswa dalam peraturan sekolah SMPN 12 Surabaya Waka</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 mt-4 mt-md-0">
+            <div class="icon-box">
+              <div class="row">
+                <div class="col-sm-2">
+                  <img src="basket.jpg">
+                </div>
+                <div class="col-sm-10">
+                  <h4><a href="#">TIM BASKET SMPN 12 SURABAYA</a></h4>
+                  <p> SMPN 12 SURABAYA memiliki ekstrakurikuler basket yang banyak diminati oleh para siswa-siswi SMPN 12 SURABAYA. Basket Rholas juga patut untuk di banggakan</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 mt-4 mt-md-0">
+            <div class="icon-box">
+              <div class="row">
+                <div class="col-sm-2">
+                  <img src="band.png">
+                </div>
+                <div class="col-sm-10">
+                  <h4><a href="#">RHOLAS BAND CLUB</a></h4>
+                  <p>RHOLAS BAND CLUB Prestasi yang membanggakan dari siswa SMPN 12 Surabaya yang telah menyabet gelar juara satu di SMK GIKI 1 Surabaya dalam acara B.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 mt-4 mt-md-0">
+            <div class="icon-box">
+              <div class="row">
+                <div class="col-sm-2">
+                  <img src="hunter.png">
+                </div>
+                <div class="col-sm-10">
+                  <h4><a href="#">HUNTER 2016</a></h4>
+                  <p>Hunter aka Hari Ulang Tahun Rholas yang bertepatan pada tanggal 17 Noveber 2016. Pada tahun.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 mt-4 mt-md-0">
+            <div class="icon-box">
+              <div class="row">
+                <div class="col-sm-2">
+                  <img src="doa bersama.jpg">
+                </div>
+                <div class="col-sm-10">
+                  <h4><a href="#">DO'A BERSAMA KELAS IX MENJELANG UNBK 2017</a></h4>
+                  <p>Surabaya,24 Maret 2017 Dalam Memaksimalkan Kelancaran dalam Berlangsungya Berbagai rentetan Ujian kelas IX(Sembilan) terutama ujian</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- Berita -->
+
+    <!-- ======= Galeri ======= -->
+    <section id="galeri" class="galeri">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <h2> Photo Galeri </h2>
+          </div>
+        </div>
+
+        <div class="row galeri-container">
+
+          <div class="col-lg-4 col-md-6 galeri-item">
+            <div class="galeri-wrap">
+              <img src="pexels-monstera-production-5384538.jpg" class="img-fluid" alt="">
+              <div class="galeri-info">
+                <h4>Senam Pagi</h4>
+                <p>Jumat Sehat</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 galeri-item">
+            <div class="galeri-wrap">
+              <img src="pexels-mohammad-ramezani-16135714.jpg" class="img-fluid" alt="">
+              <div class="galeri-info">
+                <h4>Sholat Berjamaah</h4>
+                <p>Kajian Kitab Suci</p>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 galeri-item filter-app">
+            <div class="galeri-wrap">
+              <img src="pexels-img-2116469.jpg" class="img-fluid" alt="">
+              <div class="galeri-info">
+                <h4>Bermain Basket</h4>
+                <p>Jumat Sehat</p>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 galeri-item filter-card">
+            <div class="galeri-wrap">
+              <img src="pexels-cottonbro-studio-4101143.jpg" class="img-fluid" alt="">
+              <div class="galeri-info">
+                <h4>Konseling Dengan Teman</h4>
+                <p>Konseling Sebaya</p>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 galeri-item filter-web">
+            <div class="galeri-wrap">
+              <img src="pexels-rdne-stock-project-5875066.jpg" class="img-fluid" alt="">
+              <div class="galeri-info">
+                <h4>Doa Bersama Agama Kristen</h4>
+                <p>Kajian Kitab Suci</p>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 galeri-item filter-app">
+            <div class="galeri-wrap">
+              <img src="pexels-jonathan-borba-18026365.jpg" class="img-fluid" alt="">
+              <div class="galeri-info">
+                <h4>Bermain Sepakbola</h4>
+                <p>Jumat Sehat</p>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 galeri-item filter-card">
+            <div class="galeri-wrap">
+              <img src="doa bersama hindu.jpeg" class="img-fluid" alt="">
+              <div class="galeri-info">
+                <h4>Doa Bersama Agama Hindu</h4>
+                <p>Kajian Kitab Suci</p>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 galeri-item filter-card">
+            <div class="galeri-wrap">
+              <img src="pexels-cottonbro-studio-4101137.jpg" class="img-fluid" alt="">
+              <div class="galeri-info">
+                <h4>Konseling Sebaya</h4>
+                <p>Konseling Sebaya</p>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 galeri-item filter-web">
+            <div class="galeri-wrap">
+              <img src="pexels-jopwell-2422280.jpg" class="img-fluid" alt="">
+              <div class="galeri-info">
+                <h4>Diskusi Bersama</h4>
+                <p>Konseling Sebaya</p>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- Galeri -->
+
+    <!--Feedback form-->
+    <section id="feedbackForm" class="feedbackForm">
+      <div class="container">
+        <h1>Isi Feedback Terhadap Sekolah Kami</h1>
+        <form name="myForm" action="https://google.com" onsubmit="return validateForm()" method="post">
+          <div class="input-control">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" class="form-control ">
+          </div>
+          <div class="input-control">
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" class="form-control">
+          </div>
+          <div class="input-control">
+            <label for="feedback">Feedback:</label>
+            <input type="text" id="feedback" name="feedback" class="form-control">
+          </div>
+          <input type="submit" value="Submit" class="btn btn-primary buttonPost">
+        </form>
+      </div>
+    </section>
+
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-info">
+              <h3>SMPN 12 SURABAYA</h3>
+              <p>
+                JL NGAGEL KEBONSARI I<br>
+                SURABAYA<br><br>
+                <strong>Phone:</strong>  031-5055409<br>
+                <strong>Email:</strong> smpneg12sby@gmail.com<br>
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Kategori</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Berita</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Tentang</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Arsip 2023</h4>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-links">
+            <h4>Tautan</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Dinas Pendidikan Surabaya</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Perpustakaan SMPN 12 SBY</a></li>
+            </ul>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="main.js"></script>
+
+</body>
+
+</html>
