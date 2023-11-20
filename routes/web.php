@@ -46,3 +46,6 @@ Route::post('/formulir/proses', 'App\Http\Controllers\DosenController@proses');
 Route::get('/blog', 'BlogController@home');
 Route::get('/blog/tentang', 'BlogController@tentang');
 Route::get('/blog/kontak', 'BlogController@kontak');
+
+
+Route::get('/pegawai','PegawaiController@index');
