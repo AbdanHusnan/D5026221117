@@ -48,12 +48,12 @@ Route::get('/blog/tentang', 'BlogController@tentang');
 Route::get('/blog/kontak', 'BlogController@kontak');
 
 
-Route::get('/pegawai','App\Http\Controllers\PegawaiController@index');
-Route::get('/pegawai/tambah','App\Http\Controllers\PegawaiController@tambah');
-Route::post('/pegawai/store','App\Http\Controllers\PegawaiController@store');
-Route::get('/pegawai/edit/{id}','App\Http\Controllers\PegawaiController@edit');
-Route::post('/pegawai/update','App\Http\Controllers\PegawaiController@update');
-Route::get('/pegawai/hapus/{id}','App\Http\Controllers\PegawaiController@hapus');
+// Route::get('/pegawai','App\Http\Controllers\PegawaiController@index');
+// Route::get('/pegawai/tambah','App\Http\Controllers\PegawaiController@tambah');
+// Route::post('/pegawai/store','App\Http\Controllers\PegawaiController@store');
+// Route::get('/pegawai/edit/{id}','App\Http\Controllers\PegawaiController@edit');
+// Route::post('/pegawai/update','App\Http\Controllers\PegawaiController@update');
+// Route::get('/pegawai/hapus/{id}','App\Http\Controllers\PegawaiController@hapus');
 
 Route::get('/pegawai/cari','App\Http\Controllers\PegawaiController@cari');
 Route::get('/pegawai/view/{id}','App\Http\Controllers\PegawaiController@view');
@@ -62,5 +62,12 @@ Route::get('/nilaikuliah','App\Http\Controllers\NilaiKuliahController@indexkulia
 Route::get('/nilaikuliah/tambahnilai','App\Http\Controllers\NilaiKuliahController@tambah');
 Route::get('/nilaikuliah/store','App\Http\Controllers\NilaiKuliahController@store');
 
-
+//route EAS
+Route::get('/kabel','App\Http\Controllers\KabelController@index');
+Route::get('/kabel/tambahkabel','App\Http\Controllers\KabelController@tambah');
+Route::get('/kabel/store','App\Http\Controllers\KabelController@store');
+Route::get('/kabel/editkabel/{id}','App\Http\Controllers\KabelController@edit');
+Route::get('/kabel/update','App\Http\Controllers\KabelController@update');
+Route::get('/kabel/hapus/{id}','App\Http\Controllers\KabelController@hapus');
+Route::get('/kabel/viewkabel/{id}','App\Http\Controllers\KabelController@view');
 
