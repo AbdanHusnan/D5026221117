@@ -9,7 +9,7 @@
 
 @section('konten')
 	@foreach($kabel as $k)
-	<form action="/kabel/update" method="post" role="form">
+	<form action="/kabel/update" method="get" role="form">
 		{{ csrf_field() }}
         <input type="hidden" name="id" value="{{ $k->kodekabel }}">
         <div class = "form-group">
