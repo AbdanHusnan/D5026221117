@@ -62,7 +62,7 @@ Route::get('/nilaikuliah','App\Http\Controllers\NilaiKuliahController@indexkulia
 Route::get('/nilaikuliah/tambahnilai','App\Http\Controllers\NilaiKuliahController@tambah');
 Route::get('/nilaikuliah/store','App\Http\Controllers\NilaiKuliahController@store');
 
-//route EAS
+//route PRa EAS
 Route::get('/kabel','App\Http\Controllers\KabelController@index');
 Route::get('/kabel/tambahkabel','App\Http\Controllers\KabelController@tambah');
 Route::get('/kabel/store','App\Http\Controllers\KabelController@store');
@@ -70,4 +70,8 @@ Route::get('/kabel/editkabel/{id}','App\Http\Controllers\KabelController@edit');
 Route::get('/kabel/update','App\Http\Controllers\KabelController@update');
 Route::get('/kabel/hapus/{id}','App\Http\Controllers\KabelController@hapus');
 Route::get('/kabel/viewkabel/{id}','App\Http\Controllers\KabelController@view');
+
+//route EAS
+Route::get('/kategorri','App\Http\Controllers\KategorriController@index');
+Route::post('/kategorri/pilih','App\Http\Controllers\KategorriController@pilih');
 
